@@ -1,0 +1,29 @@
+{
+  "name": "restaurant-webpage",
+  "version": "1.0.0",
+  "description": "Restaurant Web Application with the guidance of TheOdinProject.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack build --config webpack.production.js",
+    "watch": "npx webpack --watch --config webpack.development.js",
+    "start": "npx webpack serve --open --config webpack.development.js",
+    "gh-pages-deploy": "npm run build && git add . && git commit -m 'Deploy to gh-pages' && git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [
+    "web-application"
+  ],
+  "author": "sparsh",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "webpack-merge": "^5.10.0"
+  }
+}
