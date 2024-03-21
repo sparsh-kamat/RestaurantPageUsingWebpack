@@ -1,6 +1,6 @@
-import createHome from './home/home';
-import createMenu from './menu/menu';
-import createContact from './contact/contact';
+import createHome from './home/home.js';
+import createMenu from './menu/menu.js';
+import createContact from './contact/contact.js';
 
 
 const buttons = document.querySelectorAll('button');
@@ -25,7 +25,8 @@ buttons.forEach((button) => {
     });
 });
 
-content.appendChild(createMenu());
+
+content.appendChild(createContact());
 
 
 

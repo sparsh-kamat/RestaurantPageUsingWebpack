@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack build --config webpack.production.js",
+    "produce": "npx webpack build --watch --config webpack.production.js",
     "watch": "npx webpack --watch --config webpack.development.js",
     "start": "npx webpack serve --open --config webpack.development.js",
     "gh-pages-deploy": "npm run build && git add . && git commit -m 'Deploy to gh-pages' && git subtree push --prefix dist origin gh-pages"

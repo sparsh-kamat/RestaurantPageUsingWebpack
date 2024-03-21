@@ -1,12 +1,3 @@
-// import css from './style.css';
-// make a function that creates a new div element
-/* <div id="home">
-            <h2>Welcome to Forklore</h2>
-            <p>We are a family-owned restaurant that serves delicious food made from fresh ingredients. We have been in
-                business for over 20 years and have been serving our customers with love and care. We are proud to be a
-                part of the community and we look forward to serving you.</p>
-        </div> */
-
 import './home.css';
 
 function createHome() {

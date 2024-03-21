@@ -1,0 +1,54 @@
+#content {
+    
+    align-items: center;
+    height: auto;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    margin: 10px;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aliceblue
+}
+
+td:first-child {
+    width: 10%;
+    text-align: left;
+}
+
+ td:nth-child(2) {
+    width: 70%;
+    text-align: left;
+}
+
+ td:last-child {
+    width: 20%;
+    text-align: left;
+}
+
+
+
