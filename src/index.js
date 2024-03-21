@@ -26,7 +26,7 @@ buttons.forEach((button) => {
 });
 
 
-content.appendChild(createContact());
+content.appendChild(createHome());
 
 
 
