@@ -25,7 +25,7 @@ buttons.forEach((button) => {
     });
 });
 
-content.appendChild(createHome());
+content.appendChild(createMenu());
 
 
 
